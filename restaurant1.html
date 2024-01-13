@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>restaurant1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>    
+    <script
+      src="https://kit.fontawesome.com/bb71c3bb06.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <body >
+      <div class="mx-16 mt-5 mb-10 ">
+        <nav>
+          <div class="flex text-slate-950 pt-8 justify-between py-8 ">
+            <ul>
+              <li><a href="index.html" class="text-orange-600 font-bold text-3xl pl-4">MAKH</a></li>
+            </ul>
+            <div class="mainNav hidden md:flex">
+              <ul class="middleNav flex gap-x-10 ">
+                <li class="hoverAnime"><a href="index.html#restaurants">Restaurants</a></li>
+              <li><a href="index.html#how_it_works">How it works</a></li>
+              <li><a href="index.html#about">About</a></li>
+              </ul>
+            </div>
+            <div class="mainNav hidden md:flex">
+              <ul class="gap-4 flex">
+                <li>
+                  <div class="navLogin bg-orange-500">
+                    <a href="login.html">Login</a>
+                  </div>
+                  
+                </li>
+                <li>
+                  <a href="cart.html"
+                    ><i class="fa-solid fa-cart-shopping hover"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="Burger md:hidden flex items-center">
+              <button class="Burger_button"><svg class ="w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg></button>          
+            </div>
+          </div>
+          <div class="mobileNav text-slate-950 hidden md:hidden">
+            <ul class="gap-6 float-right">
+              <li class="underline hover"><a href="index.html#restaurants">Restaurants</a></li>
+            <li class="underline hover"><a href="index.html#How_it_works">How it works</a></li>
+            <li class="underline hover"><a href="index.html#about">About</a></li>
+              <ul class="gap-4">
+                <li class="underline hover">
+                  <a href="login.html">Login</a>
+                </li>
+                <li>
+                  <a href="cart.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <section id="orderNow" class=" pb-20 grid gap-5">
+        <h1 class="page-header p-10 text-orange-700">Menu</h1>
+      <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+              <div class="p-8">
+                <img class="h-48 w-full object-cover mb-4" src="Assets/PizzaMain.jpg" alt="Product Image">
+                <h1 class="font-bold text-2xl">lorem</h1>
+                <p class="pb-4">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Price</div>
+                <div class="mt-2 text-gray-900 text-2xl font-semibold">$19.99</div>
+                <div class="mt-4">
+                  <label for="amount1" class="text-sm text-gray-600">Amount:</label>                  
+                  <input id="amount1" type="number" min="1" max="10" value="1" class="w-16 px-3 py-2 border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div class="mt-6">
+                  <button class="inline-block bg-orange-600 text-white py-2 px-4 rounded-md hover:bg-orange-700">Order</button>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+              <div class="p-8">
+                <img class="h-48 w-full object-cover mb-4" src="Assets/PizzaMain.jpg" alt="Product Image">
+                <h1 class="font-bold text-2xl">lorem</h1>
+                <p class="pb-4">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Price</div>
+                <div class="mt-2 text-gray-900 text-2xl font-semibold">$19.99</div>
+                <div class="mt-4">
+                  <label for="amount1" class="text-sm text-gray-600">Amount:</label>
+                  <input id="amount1" type="number" min="1" max="10" value="1" class="w-16 px-3 py-2 border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div class="mt-6">
+                  <button class="inline-block bg-orange-600 text-white py-2 px-4 rounded-md hover:bg-orange-700">Order</button>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+              <div class="p-8">
+                <img class="h-48 w-full object-cover mb-4" src="Assets/PizzaMain.jpg" alt="Product Image">
+                <h1 class="font-bold text-2xl">lorem</h1>
+                <p class="pb-4">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Price</div>
+                <div class="mt-2 text-gray-900 text-2xl font-semibold">$19.99</div>
+                <div class="mt-4">
+                  <label for="amount1" class="text-sm text-gray-600">Amount:</label>
+                  <input id="amount1" type="number" min="1" max="10" value="1" class="w-16 px-3 py-2 border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div class="mt-6">
+                  <button class="inline-block bg-orange-600 text-white py-2 px-4 rounded-md hover:bg-orange-700">Order</button>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>      
+            <div class="container mx-auto px-4">
+              <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+                <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+                  <div class="p-8">
+                    <img class="h-48 w-full object-cover mb-4" src="Assets/PizzaMain.jpg" alt="Product Image">
+                    <h1 class="font-bold text-2xl">lorem</h1>
+                    <p class="pb-4">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Price</div>
+                    <div class="mt-2 text-gray-900 text-2xl font-semibold">$19.99</div>
+                    <div class="mt-4">
+                      <label for="amount1" class="text-sm text-gray-600">Amount:</label>
+                      <input id="amount1" type="number" min="1" max="10" value="1" class="w-16 px-3 py-2 border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div class="mt-6">
+                      <button class="inline-block bg-orange-600 text-white py-2 px-4 rounded-md hover:bg-orange-700">Order</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+                  <div class="p-8">
+                    <img class="h-48 w-full object-cover mb-4" src="Assets/PizzaMain.jpg" alt="Product Image">
+                    <h1 class="font-bold text-2xl">lorem</h1>
+                    <p class="pb-4">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Price</div>
+                    <div class="mt-2 text-gray-900 text-2xl font-semibold">$19.99</div>
+                    <div class="mt-4">
+                      <label for="amount1" class="text-sm text-gray-600">Amount:</label>
+                      <input id="amount1" type="number" min="1" max="10" value="1" class="w-16 px-3 py-2 border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div class="mt-6">
+                      <button class="inline-block bg-orange-600 text-white py-2 px-4 rounded-md hover:bg-orange-700">Order</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+                  <div class="p-8">
+                    <img class="h-48 w-full object-cover mb-4" src="Assets/PizzaMain.jpg" alt="Product Image">
+                    <h1 class="font-bold text-2xl">lorem</h1>
+                    <p class="pb-4">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Price</div>
+                    <div class="mt-2 text-gray-900 text-2xl font-semibold">$19.99</div>
+                    <div class="mt-4">
+                      <label for="amount1" class="text-sm text-gray-600">Amount:</label>
+                      <input id="amount1" type="number" min="1" max="10" value="1" class="w-16 px-3 py-2 border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div class="mt-6">
+                      <button class="inline-block bg-orange-600 text-white py-2 px-4 rounded-md hover:bg-orange-700">Order</button>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+                </div>      
+      </section>
+
+      <footer class="bg-orange-100 text-white py-4 flex flex-col md:flex-row items-center justify-between px-4 md:px-8">
+        <div class="text-center md:text-left">
+          <a href="index.html" class="text-2xl font-bold text-orange-600">MAKH</a>
+          <p class="mt-2 text-sm text-gray-500">The easiest way to order food online.</p>
+        </div>
+      
+        <div class="mt-4 md:mt-0 flex flex-wrap md:space-x-4">
+          <a href="index.html#about" class="text-sm text-gray-500 hover:text-orange-500 transition duration-150 ease-in-out">About Us</a>
+          <a href="index.html#How_it_works" class="text-sm text-gray-500 hover:text-orange-500 transition duration-150 ease-in-out">How It Works</a>
+          <a href="index.html#contact" class="text-sm text-gray-500 hover:text-orange-500 transition duration-150 ease-in-out">Contact Us</a>
+          <a href="#" class="text-sm text-gray-500 hover:text-orange-500 transition duration-150 ease-in-out">Terms & Conditions</a>
+          <a href="#" class="text-sm text-gray-500 hover:text-orange-500 transition duration-150 ease-in-out">Privacy Policy</a>
+        </div>
+      
+        <div class="mt-4 md:mt-0 flex justify-center md:justify-end">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa fa-facebook-f text-orange-500 hover:text-orange-700 transition duration-150 ease-in-out h-6 w-6"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa fa-instagram text-orange-500 hover:text-orange-700 transition duration-150 ease-in-out h-6 w-6"></i>
+          </a>
+        </div>
+      </footer>
+
+    <script src="script.js"></script>
+      </body>
+</html>
+

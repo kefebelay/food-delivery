@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navBar {
+    background-color: blurr(0 4px 30px rgba(0, 0, 0, 0.1));
+}
+
+.navLogin {
+    color:white;
+    font-weight: 500;
+    cursor:pointer;
+    border-radius: 50px;
+    text-align: center;
+    height:28px;
+    width:90px;
+    transition: 500ms;
+}
+.navLogin:hover{
+   
+    transform: scale(1.1);
+    transition: 500ms;
+}
+.orderButton {
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 50px;
+    text-align: center;
+    height:3rem;
+    width:200px;
+    transition-duration: 500ms;
+}
+.orderButton:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+.MobileNav{
+    font-size:16px;
+    font-weight: 500;
+}
+.middleNav{
+    font-size:20px;
+    font-weight: 500;
+}
+.middleNav a:hover{
+    text-decoration: none;
+    color: orange;
+}
+.hover:hover{
+    text-decoration: none;
+    color: orange;
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.spin {
+    animation: spin 200s  infinite;
+}
+.page-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.card-item{
+    width: fit-content;
+    height: 27rem;
+    width: 20rem;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+    box-shadow: 5px 10px lightgray;
+}
+.card-item img{
+    padding-bottom: 1rem;
+}
+
+.card-item-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.card-item p{
+    padding: 1.2rem;
+
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MAKH - Cart</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>...</header>
+    <nav>...</nav>
+
+    <main class="container mx-auto px-4">
+      <h1 class="text-2xl font-bold mb-4">Your Cart</h1>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <template id="cart-item-template"
+          ><template id="cart-item-template">
+            <div
+              class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden"
+            >
+              <div class="p-8">
+                <img
+                  class="h-48 w-full object-cover mb-4"
+                  src="Assets/PizzaMain.jpg"
+                  alt="Product Image"
+                />
+                <h1 class="font-bold text-2xl">lorem</h1>
+                <p class="pb-4">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </p>
+                <div
+                  class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+                >
+                  Price
+                </div>
+                <div class="mt-2 text-gray-900 text-2xl font-semibold">
+                  $19.99
+                </div>
+                <div class="mt-4">
+                  <label for="amount1" class="text-sm text-gray-600"
+                    >Amount:</label
+                  >
+                  <input
+                    id="amount1"
+                    type="number"
+                    min="1"
+                    max="10"
+                    value="1"
+                    class="w-16 px-3 py-2 border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                  />
+                </div>
+                <div class="mt-6">
+                  <button
+                    class="inline-block bg-orange-600 text-white py-2 px-4 rounded-md hover:bg-orange-700"
+                  >
+                    Order
+                  </button>
+                </div>
+              </div>
+            </div>
+          </template>
+        </template>
+      </div>
+
+      <section class="mt-8">
+        <h2 class="text-xl font-semibold mb-4">Order Summary</h2>
+        <div class="flex items-center justify-between mb-4">
+          <span>Subtotal:</span>
+          <span class="text-xl font-semibold">$0.00</span>
+        </div>
+        <div class="flex items-center justify-between mb-4">
+          <span>Delivery Fee:</span>
+          <span>$0.00</span>
+        </div>
+        <div class="flex items-center justify-between mb-4">
+          <span class="font-semibold">Total:</span>
+          <span class="text-xl font-semibold">$0.00</span>
+        </div>
+        <button
+          type="button"
+          class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400"
+        >
+          Place Order
+        </button>
+      </section>
+    </main>
+
+    <footer>...</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
